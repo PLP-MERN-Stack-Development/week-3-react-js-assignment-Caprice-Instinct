@@ -18,11 +18,11 @@ You will:
 2. Clone your personal repository that was created by GitHub Classroom
 3. Install dependencies:
    ```
-   npm install
+   pnpm install
    ```
 4. Start the development server:
    ```
-   npm run dev
+   pnpm dev
    ```
 
 ## Files Included
@@ -36,7 +36,7 @@ You will:
 ## Requirements
 
 - Node.js (v18 or higher)
-- npm or yarn
+- pnpm (recommended) or npm
 - Modern web browser
 - Code editor (VS Code recommended)
 
@@ -57,11 +57,33 @@ src/
 
 Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
+1. ✅ Complete all required components and features
+2. ✅ Implement proper state management with hooks
+3. ✅ Integrate with at least one external API
+4. ✅ Style your application with Tailwind CSS
 5. Deploy your application and add the URL to your README.md
+
+## Deployment
+
+To deploy this application:
+
+1. Build the project: `pnpm build`
+2. Deploy the `dist` folder to your preferred hosting service (Netlify, Vercel, etc.)
+
+## Features Implemented
+
+- ✅ React application with Vite and Tailwind CSS
+- ✅ Reusable UI components (Button, Card, Navbar, Footer, Layout)
+- ✅ Task Manager with CRUD operations
+- ✅ State management using React hooks (useState, useEffect, useContext)
+- ✅ Custom hook for localStorage persistence
+- ✅ Theme management (light/dark mode)
+- ✅ API integration with JSONPlaceholder
+- ✅ Loading and error states
+- ✅ Search functionality
+- ✅ Pagination/Load more feature
+- ✅ React Router for navigation
+- ✅ Responsive design with Tailwind CSS
 
 ## Resources
 
